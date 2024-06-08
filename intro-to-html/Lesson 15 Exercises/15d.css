@@ -1,0 +1,40 @@
+body {
+  height: 3000px;
+
+}
+
+.bottom-right {
+  background-color: lightpink;
+  width: 320px;
+  height: 180px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  
+}
+
+.close-button {
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 30px;
+}
+
+
+.timestamp {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  background-color: black;
+  color: white;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}

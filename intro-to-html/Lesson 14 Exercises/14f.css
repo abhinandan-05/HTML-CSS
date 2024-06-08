@@ -1,0 +1,45 @@
+body {
+  height: 3000px;
+}
+
+.double-sidebar {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.picture-section {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+.picture-sidebar {
+
+}
+
+.picture {
+  width: 60px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+  padding-left: 10px;
+  background-color: rgb(65, 65, 65);
+  padding-right: 80px;
+  color: white;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+}

@@ -1,0 +1,21 @@
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  border: 1px;
+  border-color: gray;
+  border-style: solid;
+  height: 50px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flexbox-a {
+  background-color: pink;
+  
+}
+
+.flexbox-b {
+  background-color: pink;
+}
+  
